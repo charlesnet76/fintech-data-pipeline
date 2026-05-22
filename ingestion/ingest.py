@@ -24,7 +24,7 @@ DB_CONFIG = {
     "password": "fintech_pass",
 }
 
-CSV_PATH = "../data/transactions.csv"
+CSV_PATH = "/data/transactions.csv"
 
 # ── Extract ───────────────────────────────────────────────────────────────────
 def extract(filepath):
