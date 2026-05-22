@@ -4,7 +4,7 @@ generate_data.py
 Generates realistic mock FinTech transaction data and saves to CSV.
 This is the raw source data that feeds the entire pipeline.
 
-Output: ../data/transactions.csv
+Output: data/transactions.csv
 """
 
 import csv
@@ -20,7 +20,7 @@ NUM_CUSTOMERS    = 200
 NUM_TRANSACTIONS = 5000
 START_DATE       = datetime(2025, 1, 1)
 END_DATE         = datetime(2025, 12, 31)
-OUTPUT_FILE      = "../data/transactions.csv"
+OUTPUT_FILE      = "data/transactions.csv"
 
 # ── Reference data ────────────────────────────────────────────────────────────
 CATEGORIES = {
